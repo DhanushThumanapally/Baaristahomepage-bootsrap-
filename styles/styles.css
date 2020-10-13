@@ -1,0 +1,108 @@
+
+body{
+    font-family: "Montserrat",sans-serif;
+    font-weight: 700;
+
+}
+#title{
+    background-color:orange;
+    color: #fff;
+}
+
+h1{
+    font-family: 'Montserrat-Black', sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+    
+}
+h2{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+h3{
+    font-family: 'Ubuntu',sans-serif;
+    font-weight: 600;
+    line-height: 1.3;
+}
+.container-fluid{
+  padding: 3% 15%;
+}
+
+/* navbar */
+.navbar{
+    padding: 0 0 2.5rem;
+}
+.navbar-brand{
+    font-family: 'Ubuntu',sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 15px;
+}
+.get-btn{
+    margin: 5% 3% 5% 0;
+}
+
+/* stores */
+#Stores{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #fff;
+}
+/* .store-row{
+    padding-top: 7%;
+} */
+.store-col{
+    padding: 5% 5%;
+}
+.store-col:hover{
+    color: #ff4c68;
+}
+/* productssection */
+
+#Products{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: darkgrey;
+}
+.carousel-item{
+  
+    padding: 7% 15%;
+}
+.d-block{
+    padding-left: 100% 0 0 0;
+}
+/* footer */
+#Contact{
+    font-family: 'Ubuntu',sans-serif;
+  padding: 3% 15%;
+  text-align: center;
+  background-color: orange;
+}
+.logoend{
+    padding: 2%;
+    width: 200px;
+}
+.logoend:hover{
+ /* background-color: crimson; */
+    box-shadow: 3px 3px 3px 3px grey;
+}
+.social-text
+{
+    padding: 5% 1%;
+}
+/* media */
+
+@media(max-width: 670px)
+{
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        text-align: center;
+        position: static;
+    }
+}
+
